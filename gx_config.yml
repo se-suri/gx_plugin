@@ -1,0 +1,21 @@
+# This is the configuration file. You should update all fields according to your specific project.
+
+# Prerequisites: You must be registered on GX Cloud (https://app.greatexpectations.io/start)
+
+# ge_cloud_organization_id:
+# This is the Organization ID available in the GX Cloud UI.
+# After logging in, go to Settings > Access Tokens and copy the "Organization ID" value. Paste it here.
+
+# ge_cloud_access_token:
+# In the same Settings > Access Tokens page, create a new "User Access Token" or "Organization Access Token".
+# Copy the generated token and paste it here.
+
+# The fields below (project_name, datasource_name, etc.) should be filled based on the needs of your specific project.
+
+project_name: "scraped-data"
+datasource_name: "csv_data"
+suite_name: "default_suite"
+csv_path: "data/scraped_data.csv"
+ge_cloud_organization_id: "<your-org-id>"
+ge_cloud_access_token: "<your-token>"
+ge_cloud_base_url: "https://app.greatexpectations.io/"
