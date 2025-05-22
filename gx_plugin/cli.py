@@ -10,8 +10,7 @@ def run():
 
     add_csv_datasource(context, config["datasource_name"], config["csv_path"])
     create_suite(context, config["suite_name"], expectations=[
-        "expect_column_postal_code_format",
-        "expect_column_price_range"
+        "expect_validation_suite"
     ])
 
     batch_request = {
